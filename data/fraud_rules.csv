@@ -1,0 +1,4 @@
+rule_id,rule_name,description,threshold,risk_score
+R001,High Amount Transaction,Transaction amount significantly above average,500,30
+R002,Unusual Time,Transaction outside business hours,23:00-05:00,20
+R003,New Vendor,Transaction with previously unseen vendor,First occurrence,25
